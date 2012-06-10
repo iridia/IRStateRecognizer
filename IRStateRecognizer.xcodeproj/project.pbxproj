@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF319DD21584BE6300B94B63 /* IRStateRecognizerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FF319DD11584BE6300B94B63 /* IRStateRecognizerDelegate.h */; };
+		FF319DD61584BE9400B94B63 /* IRCompoundStateRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF319DD41584BE9400B94B63 /* IRCompoundStateRecognizer.h */; };
+		FF319DD71584BE9400B94B63 /* IRCompoundStateRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF319DD51584BE9400B94B63 /* IRCompoundStateRecognizer.m */; };
+		FF319DDA1584BEB800B94B63 /* IRAndCompoundStateRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF319DD81584BEB800B94B63 /* IRAndCompoundStateRecognizer.h */; };
+		FF319DDB1584BEB800B94B63 /* IRAndCompoundStateRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF319DD91584BEB800B94B63 /* IRAndCompoundStateRecognizer.m */; };
+		FF319DDE1584BEBE00B94B63 /* IROrCompoundStateRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = FF319DDC1584BEBE00B94B63 /* IROrCompoundStateRecognizer.h */; };
+		FF319DDF1584BEBE00B94B63 /* IROrCompoundStateRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF319DDD1584BEBE00B94B63 /* IROrCompoundStateRecognizer.m */; };
+		FF319DE31584F7BC00B94B63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF319DE21584F7BC00B94B63 /* UIKit.framework */; };
+		FF7603761584BDE200845C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7603751584BDE200845C57 /* Foundation.framework */; };
+		FF76037C1584BDE200845C57 /* IRStateRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF76037B1584BDE200845C57 /* IRStateRecognizer.m */; };
+		FF7603841584BDE300845C57 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7603831584BDE300845C57 /* SenTestingKit.framework */; };
+		FF7603871584BDE300845C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7603751584BDE200845C57 /* Foundation.framework */; };
+		FF76038A1584BDE300845C57 /* libIRStateRecognizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7603721584BDE200845C57 /* libIRStateRecognizer.a */; };
+		FF7603901584BDE300845C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF76038E1584BDE300845C57 /* InfoPlist.strings */; };
+		FF7603931584BDE300845C57 /* IRStateRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7603921584BDE300845C57 /* IRStateRecognizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF7603881584BDE300845C57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF7603691584BDE200845C57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7603711584BDE200845C57;
+			remoteInfo = IRStateRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF319DD11584BE6300B94B63 /* IRStateRecognizerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRStateRecognizerDelegate.h; sourceTree = "<group>"; };
+		FF319DD41584BE9400B94B63 /* IRCompoundStateRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRCompoundStateRecognizer.h; sourceTree = "<group>"; };
+		FF319DD51584BE9400B94B63 /* IRCompoundStateRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRCompoundStateRecognizer.m; sourceTree = "<group>"; };
+		FF319DD81584BEB800B94B63 /* IRAndCompoundStateRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IRAndCompoundStateRecognizer.h; sourceTree = "<group>"; };
+		FF319DD91584BEB800B94B63 /* IRAndCompoundStateRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IRAndCompoundStateRecognizer.m; sourceTree = "<group>"; };
+		FF319DDC1584BEBE00B94B63 /* IROrCompoundStateRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IROrCompoundStateRecognizer.h; sourceTree = "<group>"; };
+		FF319DDD1584BEBE00B94B63 /* IROrCompoundStateRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IROrCompoundStateRecognizer.m; sourceTree = "<group>"; };
+		FF319DE01584BEDD00B94B63 /* IRCompoundStateRecognizer+SubclassEyesOnly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRCompoundStateRecognizer+SubclassEyesOnly.h"; sourceTree = "<group>"; };
+		FF319DE11584F3EC00B94B63 /* IRStateRecognizer+SubclassEyesOnly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRStateRecognizer+SubclassEyesOnly.h"; sourceTree = "<group>"; };
+		FF319DE21584F7BC00B94B63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF7603721584BDE200845C57 /* libIRStateRecognizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIRStateRecognizer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7603751584BDE200845C57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF7603791584BDE200845C57 /* IRStateRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRStateRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		FF76037A1584BDE200845C57 /* IRStateRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRStateRecognizer.h; sourceTree = "<group>"; };
+		FF76037B1584BDE200845C57 /* IRStateRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRStateRecognizer.m; sourceTree = "<group>"; };
+		FF7603821584BDE300845C57 /* IRStateRecognizerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRStateRecognizerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7603831584BDE300845C57 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF76038D1584BDE300845C57 /* IRStateRecognizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRStateRecognizerTests-Info.plist"; sourceTree = "<group>"; };
+		FF76038F1584BDE300845C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF7603911584BDE300845C57 /* IRStateRecognizerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRStateRecognizerTests.h; sourceTree = "<group>"; };
+		FF7603921584BDE300845C57 /* IRStateRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRStateRecognizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF76036F1584BDE200845C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7603761584BDE200845C57 /* Foundation.framework in Frameworks */,
+				FF319DE31584F7BC00B94B63 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76037E1584BDE300845C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7603841584BDE300845C57 /* SenTestingKit.framework in Frameworks */,
+				FF7603871584BDE300845C57 /* Foundation.framework in Frameworks */,
+				FF76038A1584BDE300845C57 /* libIRStateRecognizer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF7603671584BDE200845C57 = {
+			isa = PBXGroup;
+			children = (
+				FF7603771584BDE200845C57 /* IRStateRecognizer */,
+				FF76038B1584BDE300845C57 /* IRStateRecognizerTests */,
+				FF7603741584BDE200845C57 /* Frameworks */,
+				FF7603731584BDE200845C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF7603731584BDE200845C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF7603721584BDE200845C57 /* libIRStateRecognizer.a */,
+				FF7603821584BDE300845C57 /* IRStateRecognizerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF7603741584BDE200845C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7603751584BDE200845C57 /* Foundation.framework */,
+				FF319DE21584F7BC00B94B63 /* UIKit.framework */,
+				FF7603831584BDE300845C57 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7603771584BDE200845C57 /* IRStateRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				FF76037A1584BDE200845C57 /* IRStateRecognizer.h */,
+				FF76037B1584BDE200845C57 /* IRStateRecognizer.m */,
+				FF319DE11584F3EC00B94B63 /* IRStateRecognizer+SubclassEyesOnly.h */,
+				FF319DD11584BE6300B94B63 /* IRStateRecognizerDelegate.h */,
+				FF319DD41584BE9400B94B63 /* IRCompoundStateRecognizer.h */,
+				FF319DD51584BE9400B94B63 /* IRCompoundStateRecognizer.m */,
+				FF319DE01584BEDD00B94B63 /* IRCompoundStateRecognizer+SubclassEyesOnly.h */,
+				FF319DD81584BEB800B94B63 /* IRAndCompoundStateRecognizer.h */,
+				FF319DD91584BEB800B94B63 /* IRAndCompoundStateRecognizer.m */,
+				FF319DDC1584BEBE00B94B63 /* IROrCompoundStateRecognizer.h */,
+				FF319DDD1584BEBE00B94B63 /* IROrCompoundStateRecognizer.m */,
+				FF7603781584BDE200845C57 /* Supporting Files */,
+			);
+			path = IRStateRecognizer;
+			sourceTree = "<group>";
+		};
+		FF7603781584BDE200845C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF7603791584BDE200845C57 /* IRStateRecognizer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF76038B1584BDE300845C57 /* IRStateRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF7603911584BDE300845C57 /* IRStateRecognizerTests.h */,
+				FF7603921584BDE300845C57 /* IRStateRecognizerTests.m */,
+				FF76038C1584BDE300845C57 /* Supporting Files */,
+			);
+			path = IRStateRecognizerTests;
+			sourceTree = "<group>";
+		};
+		FF76038C1584BDE300845C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF76038D1584BDE300845C57 /* IRStateRecognizerTests-Info.plist */,
+				FF76038E1584BDE300845C57 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FF7603701584BDE200845C57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF319DD21584BE6300B94B63 /* IRStateRecognizerDelegate.h in Headers */,
+				FF319DD61584BE9400B94B63 /* IRCompoundStateRecognizer.h in Headers */,
+				FF319DDA1584BEB800B94B63 /* IRAndCompoundStateRecognizer.h in Headers */,
+				FF319DDE1584BEBE00B94B63 /* IROrCompoundStateRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FF7603711584BDE200845C57 /* IRStateRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7603961584BDE300845C57 /* Build configuration list for PBXNativeTarget "IRStateRecognizer" */;
+			buildPhases = (
+				FF76036E1584BDE200845C57 /* Sources */,
+				FF76036F1584BDE200845C57 /* Frameworks */,
+				FF7603701584BDE200845C57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IRStateRecognizer;
+			productName = IRStateRecognizer;
+			productReference = FF7603721584BDE200845C57 /* libIRStateRecognizer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FF7603811584BDE300845C57 /* IRStateRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7603991584BDE300845C57 /* Build configuration list for PBXNativeTarget "IRStateRecognizerTests" */;
+			buildPhases = (
+				FF76037D1584BDE300845C57 /* Sources */,
+				FF76037E1584BDE300845C57 /* Frameworks */,
+				FF76037F1584BDE300845C57 /* Resources */,
+				FF7603801584BDE300845C57 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF7603891584BDE300845C57 /* PBXTargetDependency */,
+			);
+			name = IRStateRecognizerTests;
+			productName = IRStateRecognizerTests;
+			productReference = FF7603821584BDE300845C57 /* IRStateRecognizerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF7603691584BDE200845C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF76036C1584BDE200845C57 /* Build configuration list for PBXProject "IRStateRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF7603671584BDE200845C57;
+			productRefGroup = FF7603731584BDE200845C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7603711584BDE200845C57 /* IRStateRecognizer */,
+				FF7603811584BDE300845C57 /* IRStateRecognizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF76037F1584BDE300845C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7603901584BDE300845C57 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FF7603801584BDE300845C57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF76036E1584BDE200845C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF76037C1584BDE200845C57 /* IRStateRecognizer.m in Sources */,
+				FF319DD71584BE9400B94B63 /* IRCompoundStateRecognizer.m in Sources */,
+				FF319DDB1584BEB800B94B63 /* IRAndCompoundStateRecognizer.m in Sources */,
+				FF319DDF1584BEBE00B94B63 /* IROrCompoundStateRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF76037D1584BDE300845C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7603931584BDE300845C57 /* IRStateRecognizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF7603891584BDE300845C57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF7603711584BDE200845C57 /* IRStateRecognizer */;
+			targetProxy = FF7603881584BDE300845C57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF76038E1584BDE300845C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF76038F1584BDE300845C57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF7603941584BDE300845C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF7603951584BDE300845C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF7603971584BDE300845C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IRStateRecognizer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRStateRecognizer/IRStateRecognizer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF7603981584BDE300845C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IRStateRecognizer.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRStateRecognizer/IRStateRecognizer-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF76039A1584BDE300845C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRStateRecognizer/IRStateRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "IRStateRecognizerTests/IRStateRecognizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FF76039B1584BDE300845C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRStateRecognizer/IRStateRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "IRStateRecognizerTests/IRStateRecognizerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF76036C1584BDE200845C57 /* Build configuration list for PBXProject "IRStateRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7603941584BDE300845C57 /* Debug */,
+				FF7603951584BDE300845C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7603961584BDE300845C57 /* Build configuration list for PBXNativeTarget "IRStateRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF7603971584BDE300845C57 /* Debug */,
+				FF7603981584BDE300845C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7603991584BDE300845C57 /* Build configuration list for PBXNativeTarget "IRStateRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF76039A1584BDE300845C57 /* Debug */,
+				FF76039B1584BDE300845C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF7603691584BDE200845C57 /* Project object */;
+}
